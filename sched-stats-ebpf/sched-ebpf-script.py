@@ -71,7 +71,7 @@ TRACEPOINT_PROBE(sched, sched_switch) {
 }
 """)
 
-print("Sleeping for 2 secs")
+print("Sleeping for 10 secs")
 time.sleep(10)
 print("%s %12s %8s %8s %8s %12s %8s %6s %8s %6s %8s %6s" % ("Process", "tid", "pid", "#Disp", "#affin", "%affin", "#sc", "%sc", "#bc", "%bc", "#oc", "%oc"))
 print("-------------------------------------------------------------------------------------------------------------------")
